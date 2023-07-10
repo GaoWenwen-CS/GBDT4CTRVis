@@ -7,6 +7,7 @@ The project is developed in a front-end-back-end separation, and the code is sto
 
 可通过以下视频简单了解我们的工作：
 
+https://www.bilibili.com/video/BV1Wm4y1E7Q1/?share_source=copy_web&vd_source=6fa160bf363986e81156ad82da533f06
 <iframe src="//player.bilibili.com/player.html?aid=700809239&bvid=BV1Wm4y1E7Q1&cid=1191589155&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
