@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.top {
+  height: 68vh;
+  /* 视口高度（viewprot height）的60% */
+}
+
+.bottom {
+  height: 32vh;
+}
+
+.ant-row {
+  /* 防止出现滚轮 */
+  overflow: hidden;
+}
+
+.ant-card-head {
+  /* Card标题栏的高度 */
+  min-height: 35px !important;
+}
+
+.ant-card-body {
+  padding: 0 !important;
+  flex: auto;
+}
+
+/* 设置card为flex布局；body设为auto，自动填满高度 */
+.ant-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+}
+
+.ant-table-cell {
+  padding: 5px 5px !important;
+}
+
+.tooltip {
+  background-color: dimgrey;
+  border: none;
+  border-radius: 8px;
+  color: snow;
+  display: none;
+  /* font: 12px sans-serif; */
+  /* font-size: medium; */
+  opacity: 0.85;
+  padding: 5px;
+  pointer-events: none;
+  /* 阻止鼠标事件，mouseup生效 */
+  position: absolute;
+  text-align: center;
+  width: fit-content;
+  z-index: 1000;
+  white-space: nowrap;
+  /* 不自动换行 */
+}
